@@ -61,6 +61,7 @@ def lerArquivo(nomeDoArquivo):
             #e por fim, a cada iteração mostros dados na posição 0(nome) alinhado a esquerda em 30 espaços 
             #e mostro dados na posição 1(idade) alinha em 3 espaços a direita seguida de 'anos'
             print(f'{dados[0]:<30}{dados[1]:3>} anos')
+            print()
 
 
     finally: 
@@ -82,7 +83,8 @@ def cadastrarPessoa(nomeDoArquivo, nome = 'Desconhecido', idade = 0):
     else:
         #se tudo der certo
         try: #entro com outro try para tentar adicionar o nome e a idade 
-            arquivo.write(f'{nome};{idade}')
+            arquivo.write(f'{nome};{idade}\n')
+
         
         except:
             #se houver alguma exceção, mostro uma mensagem de erro 

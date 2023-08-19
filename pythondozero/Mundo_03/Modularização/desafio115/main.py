@@ -31,9 +31,8 @@ while True:
     elif (resposta == 2):
         #chamando a função cabecalho passando o 'texto' 'NOVO CADASTRO'
         cabecalho('NOVO CADASTRO')
-        #pede o nome, converte pra str, uso  a title pra deixa a primeira letra de cada nome maiúscula e
-        #elimina os espaços da direita e da esquerda e armazena em 'nome'
-        nome = str(input('Nome: ')).title().strip()
+        #pede o nome, converte pra str, uso  a title pra deixa a primeira letra de cada nome maiúscula
+        nome = str(input('Nome: ')).title()
         #chamo a função leiaInt pra validar a idade 
         idade = leiaInt('Idade: ')
         #chamando a função cadastrarPessoa
@@ -41,7 +40,9 @@ while True:
 
     elif (resposta == 3):
         #se 'resposta' for igual a 3, mostro um mensagem e uso o break pra encerrar o laço
-        cabecalho('<< ENCERRANDO >>')
+        loading()
+        cabecalho(' << Volte Sempre! >>')
+        loading()
         break
     
     else:
