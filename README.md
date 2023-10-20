@@ -1,6 +1,6 @@
 # aprendendoPython
 
-Criei este repositório para armazenar minha trajetória iniciando do absoluto ZERO na programação com a linguagem python.
+Criei este repositório para armazenar resoluções de exercícios comentados e registrar minha trajetória e progresso iniciando do absoluto ZERO na programação com a linguagem python.
 
 Alguns conhecimentos que você pode adquirir com este repositório:
 - Tipos Primitivos (int, float, bool, str)
