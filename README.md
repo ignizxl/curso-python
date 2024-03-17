@@ -1,4 +1,4 @@
-# aprendendoPython
+# Aprendendo Python
 
 Criei este repositório para armazenar minhas resoluções de exercícios comentados e, registrar minha trajetória e progresso iniciando do absoluto ZERO na programação com a linguagem python.
 
